@@ -18,23 +18,15 @@ A web based management panel (named as Gallardmin) has been added. **Gallardmin*
 
 USAGE (includes usage instructions for setup of Audio-Gallery-Suite using Gallardmin-web based management interface only)
 -------------
-1. Download this zip:
-<https://github.com/robinrizvi/Audio-Gallery-Suite/archive/master.zip>
-
+1. Download this zip: <https://github.com/robinrizvi/Audio-Gallery-Suite/archive/master.zip>
 2. Execute these sql scripts (present in Resources/SQL Script) in your mysql server:
     1. **audiogallery_db.sql**
     2. **create_user_[optional].sql**  
-                                              
 3. Configure **Gallery/php/config.php** if the there are any changes to the database or the database user other than the default ones assumed.
-
 4. **Copy/upload the contents of Gallery folder** from the zip to your server where-ever you want
-
 5. Go to **http://root_url_to_gallery_folder/management/audiogallery/login.html**
-
 6. Type **superuser** and **superuser** as username and password respectively
-
 7. Add playlist and add audios under that playlist
-
 8. Go to your **http://root_url_to_gallery_folder/index.html to view your gallery**
 
 CODE DESCRIPTION
